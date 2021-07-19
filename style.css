@@ -132,3 +132,40 @@ select{
     background: white;
     color: #ff6f47;
 }
+
+
+@media screen and (max-width: 980px){
+    header{
+        font-size: 2rem;
+    }
+
+    form input, form button {
+        font-size: 1.3rem;
+        border: none;
+        background: white;
+        
+    }
+    form input {
+        margin-left: 0.5rem;
+    }
+    select{
+        color: #ff6f47;
+        width: 3rem;
+        cursor: pointer;
+        padding:1rem;
+        max-height: 60px;
+    }
+    .todo-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .todo-list{
+        width: 80%;
+    }
+    .todo-item{
+       margin: 0.5rem;
+    }
+
+}
